@@ -35,34 +35,34 @@ if __name__ == '__main__':
     pwd = 'xhzsSHf3O9i7hA59'
     print('Ciphertext:', AESCipher(pwd).encrypt(msg).decode('utf-8'),":",base64_string)
 
-msg = None
-spDomain = "https://securepay.sabpaisa.in/SabPaisa/sabPaisaInit"   
-username = "BinShr9905@sp"  
-password = "mdniUrw948VF"      
-programID="5666"             
-clientCode = "SIIPL"       
-authKey = "xhzsSHf3O9i7hA59"                          
-authIV = "VniFPhhrEVhg4oOX" 		  
-txnId="XYZ0115092020789654"
-txnAmt = "10"                
-URLsuccess = ""   
-URLfailure = ""
-payerFirstName ="Mukesh"                        
-payerLastName ="Kumar"                          
-payerContact = "8796541230"                     
-payerEmail = "test@gmail.com"                   
-payerAddress = ""
+#msg = None
+#spDomain = "https://securepay.sabpaisa.in/SabPaisa/sabPaisaInit"   
+#username = "BinShr9905@sp"  
+#password = "mdniUrw948VF"      
+#programID="5666"             
+#clientCode = "SIIPL"       
+#authKey = "xhzsSHf3O9i7hA59"                          
+#authIV = "VniFPhhrEVhg4oOX" 		  
+#txnId="XYZ0115092020789654"
+#txnAmt = "10"                
+#URLsuccess = ""   
+#URLfailure = ""
+#payerFirstName ="Mukesh"                        
+#payerLastName ="Kumar"                          
+#payerContact = "8796541230"                     
+#payerEmail = "test@gmail.com"                   
+#payerAddress = ""
 
 
 
-msg ="?clientName=", clientCode, "&usern=", username, "&pass=", password, "&amt=", txnAmt, "&txnId=", txnId, "&firstName=", payerFirstName, "&lstName=", payerLastName, "&contactNo=", payerContact, "&Email=", payerEmail, "&Add=", payerAddress, "&ru=", URLsuccess, "&failureURL=", URLfailure
+#msg ="?clientName=", clientCode, "&usern=", username, "&pass=", password, "&amt=", txnAmt, "&txnId=", txnId, "&firstName=", payerFirstName, "&lstName=", payerLastName, "&contactNo=", payerContact, "&Email=", payerEmail, "&Add=", payerAddress, "&ru=", URLsuccess, "&failureURL=", URLfailure
 
 
-AesCipher = AesCipher()
-msg = AesCipher->encrypt(authKey, authIV, msg)
+#AesCipher = AesCipher()
+#msg = AesCipher->encrypt(authKey, authIV, msg)
 # spURL = replace("+", "%2B")
-msg="?query=", spURL, "&clientName=", clientCode  
-msg = spDomain, msg
-print("\n")
-print(msg)
+#msg="?query=", spURL, "&clientName=", clientCode  
+#msg = spDomain, msg
+#print("\n")
+#print(msg)
 
